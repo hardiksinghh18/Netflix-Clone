@@ -1,0 +1,139 @@
+
+
+
+.profilesection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profilemain{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  
+}
+.heading{
+    font-size: 3rem;
+}
+#profilelogo{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profilesection img{
+    height: 70px;
+   padding:0px 10px;
+    
+}
+.profilesection img:hover{
+    cursor: pointer;
+}
+
+.profilename{
+    text-align: center;
+    margin: 10px;
+    color: #e7e7e7;
+}
+
+
+.managebutton{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: transparent;
+    padding: 15px 20px;
+    appearance: none;
+    border: 1px solid #969494 ;
+color: #969494;
+border-radius: 30px;
+}
+
+.managebutton:hover{
+    cursor: pointer;
+    color: rgb(184, 184, 184);
+}
+
+
+
+
+/* login page  */
+
+
+.container {
+    max-width: 325px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .signin{
+    margin: 20px 0px;
+    text-align: left;
+
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    background-color: #333333;
+    border: none;
+  }
+
+  .form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e50914;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form-group input[type="submit"]:hover {
+    background-color: #b2070f;
+  }
+
+  .form-group .checkbox {
+    margin-top: 10px;
+    /* text-align: left; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-group .checkbox label {
+    font-size: 14px;
+  }
