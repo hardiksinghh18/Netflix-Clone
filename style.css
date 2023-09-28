@@ -190,6 +190,10 @@ li:hover {
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
+    display: flex;
+    gap: .5rem;
+    height: fit-content;
+    width: fit-content;
 
 }
 .moreinfo{
@@ -206,6 +210,10 @@ li:hover {
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
+    display: flex;
+    gap: .5rem;
+    height: fit-content;
+    width: fit-content;
 
 }
 /* movies-section */
@@ -278,4 +286,77 @@ height: 100px;
 }
 .moredetails{
     background-color: #141214;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .header-left  {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       
+    }
+    .header-right{
+        display: none;
+    }
+    .header-left img {
+        height: 30px;
+        margin: 10px 20px;
+       
+    }
+    .header-left ul li {
+     font-size: .5rem;
+       
+    }
+    
+    
+    .banner-section{
+        width: 100vw;
+        background-position: center;
+        height: 70vh;
+    margin-bottom:2rem ;
+  
+    }
+
+
+	.banner-section h1{
+      font-size: 1.5rem;
+      
+    }
+	.banner-section h4{
+      font-size: 1rem;
+      
+    }
+	.banner-section p{
+      font-size: .75rem;
+      
+    }
+    .banner-content{
+        width: 40vw;
+      
+    }
+    .banner{
+        position: relative;
+        top: 7rem;
+        margin: 0;
+    }
+    .play{
+        padding: .3rem .5rem;
+        font-size: .75rem;
+    }
+    .moreinfo{
+        padding: .3rem .5rem;
+        font-size: .75rem;
+    }
+    .imagesection img{
+        width: 200px;
+    }
+    .movies-section{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
 }
